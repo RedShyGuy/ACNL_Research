@@ -4,6 +4,7 @@
 - Each friends data is 0x14B0 bytes long.
 - If PID/TID is missing, friend will not appear in the list.
 - The friendX.dat files are never loaded all at the same time in the game, only the one for the current loaded player.
+- Added friends seem to have a version in which version of ACNL they were added. If the version is not the newest (3) the Dream Address will be replaced with X's.
 
 ## Data Structure
 | Offset    | Description                    | Size (in bytes)       |
@@ -62,4 +63,4 @@
 | 0x1473    | Registered Day                 | 1                     | 
 |           |                                |                       | 
 | 0x1474    | TPC Comment (UTF16 Encoding)   | 0x40 (32 Characters)  | 
-| 0x14B6    | Version Check(?) 3 is newest   | 1                     | 
+| 0x14B6    | Version Check(?) 3 is WA       | 1                     | 
