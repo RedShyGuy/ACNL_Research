@@ -9,6 +9,8 @@
 ## Data Structure
 | Offset    | Description                    | Size (in bytes)       |
 | --------- | ------------------------------ | --------------------- |
+| 0x0       | Save Checksum                  | 4                     |
+| 0x8       | Has TPC Picture                | 0.5 (bool)            |
 | 0x8       | Has TPC Picture                | 0.5 (bool)            |
 | 0xC       | TPC Data (.jpeg)               | 0x1400                | 
 |           |                                |                       | 
