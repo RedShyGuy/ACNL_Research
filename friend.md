@@ -3,7 +3,7 @@
 - Every player has their own friendX.dat, therefore there exist 4 different ones. Each are numbered (friend1.dat for the first player as an example).
 - Each friends data is 0x14B0 bytes long.
 - If PID/TID is missing, friend will not appear in the list.
-- To be able to message a friend the Principal ID + the PID/TID need to be correct on both devices, otherwise it won't connect.
+- To be able to message a friend the Principal ID + the PID/TID need to be correct on both devices (user also needs to have added their friend code), otherwise it won't connect.
 - The friendX.dat files are never loaded all at the same time in the game, only the one for the current loaded player.
 - Added friends seem to have a version in which version of ACNL they were added. If the version is not the newest (3) the Dream Address will be replaced with X's.
 
