@@ -1,5 +1,11 @@
 #include <iostream>
 
+/*These functions were mostly reverse engineered. A few are made by myself.*/
+/*
+Infos:
+- If a Initiative has the ID 0 it won't be shown ingame and will just be empty (Used on the first day of the game as an example)
+*/
+
 uint16_t InitArr[102] = {
 	0x0000, 0x0001, 0x0001, 0x0014, 0x0001, 0x2710, 0x0014, 0x0001, 0x0001, 
 	0x0001, 0x0005, 0xC350, 0x0001, 0x0003, 0x0014, 0x0014, 0x000A, 0x0001, 
