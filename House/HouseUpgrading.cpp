@@ -375,3 +375,21 @@ void UpgradeHouseFirst(ACNL_Player* player, ACNL_TownData* town, int playerIndex
 		player->PlayerFlags.HouseUpgradeFinished = 1;
 		player->PlayerFlags.UnlockedSecretStorage = 1;
 	}
+
+void AfterEverything(ACNL_Player* player, ACNL_TownData* town, int playerIndex) {
+	//Unknown
+		player->PlayerFlags.Unknown258 = 1;	
+	//Gets set when you talk to tom nook after your house was upgraded
+		player->PlayerFlags.HouseUpgradeFinished = 0;
+	//Meet Lottie
+		player->PlayerFlags.Unknown382 = 1;
+	//finished house editor tutorial
+		player->PlayerFlags.UnlockedHouseEditor = 1;
+
+	//after repaying loan in post office
+		player->PlayerFlags.HouseLoanRepayed = 1;
+
+	//Talking to tom nook to let him know you payed your loan	
+		player->PlayerFlags.HouseLoanRepayed = 0;
+		player->PlayerFlags.Unknown382 = 0;
+	}
