@@ -2,6 +2,34 @@ Researched Function Headers for Animal Crossing New Leaf Version 1.5 - Region US
 
 | Function Offset  | Function Header | Info |
 | ------------- | ------------- | ------------- |
+| 0x100000 | void entry(void) |  |
+| 0x100024 |  |  |
+| 0x100048 |  | DLLHeap |
+| 0x100088 |  | NetHeap |
+| 0x1000c4 |  | UgcHeap |
+| 0x100104 |  | FontHeap |
+| 0x100148 |  | SaveHeap |
+| 0x10018c |  | WorkHeap |
+| 0x1001d0 |  | FaderHeap |
+| 0x100214 |  | FieldHeap |
+| 0x100260 |  | PhotoHeap |
+| 0x1002a4 |  | SoundHeap |
+| 0x1002e8 |  | StageHeap |
+| 0x10032c |  | ScriptHeap |
+| 0x100378 |  | NetGameHeap |
+| 0x1003bc |  | WeatherHeap |
+| 0x100400 |  | RealEstateHeap |
+| 0x100448 |  | ModelEffectUnitHeap |
+| 0x100490 |  | SeadParticleHeap |
+| 0x1004dc |  | HumanAnimBankHeap |
+| 0x100528 |  | ModelEffectResHeap |
+| 0x100574 |  | ParticleHandleHeap |
+| 0x1005c0 |  |  |
+| 0x100608 |  |  |
+| 0x100684 |  |  |
+| 0x100794 |  |  |
+| 0x1007c0 |  |  |
+| 0x1007dc |  |  |
 | 0x10082c | int wcslen_16(short *str) | thunk of 0x100834 |
 | 0x100834 | int wcslen_16(short *str) |  |
 | 0x100f5c | int swprintf_16(short *dest, uint max_len, short *fmt,...) | thunk of 0x100f64 |
@@ -27,6 +55,7 @@ Researched Function Headers for Animal Crossing New Leaf Version 1.5 - Region US
 | 0x5c3ddc | uint32_t * GetLoadedPlayerRoom(uint8_t playerIndex) |  |
 | 0x5c3ea0 | uint32_t * GetPlayerInstance(uint8_t playerIndex, uint8_t u0) |  |
 | 0x77a51c | void malloc(size_t size) |  |
+|  |  |
 
 ```cpp
 struct ACNL_DateTime {
