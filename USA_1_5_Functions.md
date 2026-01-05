@@ -40,4 +40,7 @@ struct ACNL_DateTime {
   u8 Second;
   u16 Millisecond;
 };
+
+typedef u32 Handle;                 ///< Resource handle.
+typedef s32 Result;                 ///< Function result.
 ```
