@@ -1,7 +1,9 @@
 Strings for Census in STR_Kokusei_Title.umsbt
 
 ID 63 and 66 are 100% unused, they do not appear in the save structure.
-ID 71 and 72 are unknown, but they are villager related
+
+ID 71 and 72 are unknown, but they are villager related.
+
 ID 82 is probably unused, no save has ever had statistics in it. Though the game does have a function to set the statistic. Further research is required.
 
 | ID | Entry | Note |
